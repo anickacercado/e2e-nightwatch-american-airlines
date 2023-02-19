@@ -1,0 +1,17 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "e2e testing for United Airlines using Nightwatch",
+  "scripts": {
+    "tests": "nightwatch --env chrome"
+  },
+  "author": "Anicka Cercado",
+  "license": "ISC",
+  "devDependencies": {
+    "geckodriver": "^3.2.0",
+    "nightwatch": "^2.6.15"
+  },
+  "dependencies": {
+    "chromedriver": "^110.0.0"
+  }
+}
